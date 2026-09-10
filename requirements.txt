@@ -1,0 +1,10 @@
+# Dépendances de PRODUCTION — utilisées uniquement par dashboard/app.py
+# C'est ce fichier que Streamlit Community Cloud (ou tout autre hébergeur) doit utiliser
+# pour déployer le dashboard : volontairement minimal pour un build rapide et fiable.
+#
+# Pour le notebook, la génération du rapport PDF et du PowerPoint (travail local),
+# voir requirements-dev.txt à la place.
+streamlit==1.63.0
+pandas==3.0.5
+numpy==2.5.2
+plotly==7.0.0

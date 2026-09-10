@@ -1,0 +1,19 @@
+# Dépendances de DÉVELOPPEMENT — nécessaires pour reproduire l'analyse complète en local :
+# notebook Jupyter, génération des figures, du rapport Word/PDF et du PowerPoint.
+# Le dashboard déployé (Streamlit Cloud) n'a besoin que de requirements.txt.
+-r requirements.txt
+
+matplotlib==3.11.1
+seaborn
+kaleido
+openpyxl==3.1.5
+python-docx==1.2.0
+python-pptx==1.0.2
+
+# Notebook
+nbformat
+nbconvert
+ipykernel
+
+# Rendu PDF (aperçu qualité des livrables)
+pymupdf
